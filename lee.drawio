@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T08:44:19.718Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="40mru5QnJJzl7IKfVpYk" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T07:08:24.125Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="EorI4woY_oV7bH75eI5H" version="24.2.1" type="github">
   <diagram name="Page-1" id="36pkw969ttGCpEtPjX4i">
-    <mxGraphModel dx="1278" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="881" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,18 @@
             <mxPoint x="160" y="200" as="sourcePoint" />
             <mxPoint x="460" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MPtI5MUqEldB5aMPYwhA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=default;jumpStyle=none;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MPtI5MUqEldB5aMPYwhA-15" target="MPtI5MUqEldB5aMPYwhA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPtI5MUqEldB5aMPYwhA-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MPtI5MUqEldB5aMPYwhA-26" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Actor1&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="360" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MPtI5MUqEldB5aMPYwhA-28" value="Business Actor" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;archiType=square;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="150" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
