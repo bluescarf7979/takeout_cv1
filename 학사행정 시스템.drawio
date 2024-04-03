@@ -1,38 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T08:01:11.624Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="F6AOOeXx9FvuSxFJ4l2l" version="24.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-03T08:09:07.687Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="lT1q-mssoFAc8NA2eIVq" version="24.2.1" type="github" pages="2">
   <diagram name="학사행정시스템" id="7mnw8JJ5zvbu0cb_zHBP">
-    <mxGraphModel dx="1105" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="939" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dXl8IALLqeuonYHjiNIx-1" value="&lt;div&gt;학사 행정 시스템&lt;/div&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=none;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="dXl8IALLqeuonYHjiNIx-1" value="&lt;div&gt;학사 행정 시스템&lt;/div&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=none;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="170" y="70" width="410" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="dXl8IALLqeuonYHjiNIx-9" value="성적 관리" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dXl8IALLqeuonYHjiNIx-1">
-          <mxGeometry x="70" y="70" width="80" height="40" as="geometry" />
+        <mxCell id="dXl8IALLqeuonYHjiNIx-9" value="성적 관리" style="ellipse;whiteSpace=wrap;html=1;" parent="dXl8IALLqeuonYHjiNIx-1" vertex="1">
+          <mxGeometry x="60" y="100" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dXl8IALLqeuonYHjiNIx-2" value="&lt;div&gt;학생&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="150" width="30" height="60" as="geometry" />
+        <mxCell id="bdLT4lLg08VNCdXR1ywT-2" value="등록 관리" style="ellipse;whiteSpace=wrap;html=1;" parent="dXl8IALLqeuonYHjiNIx-1" vertex="1">
+          <mxGeometry x="255" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dXl8IALLqeuonYHjiNIx-3" value="교직원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="110" width="30" height="60" as="geometry" />
+        <mxCell id="bdLT4lLg08VNCdXR1ywT-1" value="장학금" style="ellipse;whiteSpace=wrap;html=1;" parent="dXl8IALLqeuonYHjiNIx-1" vertex="1">
+          <mxGeometry x="160" y="40" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dXl8IALLqeuonYHjiNIx-6" value="&lt;div&gt;교수&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="250" width="30" height="60" as="geometry" />
+        <mxCell id="iouqh-4un5WAHU8eEik2-8" value="수강 관리" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dXl8IALLqeuonYHjiNIx-1">
+          <mxGeometry x="190" y="180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bdLT4lLg08VNCdXR1ywT-1" value="수강 관리" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="200" width="80" height="40" as="geometry" />
+        <mxCell id="iouqh-4un5WAHU8eEik2-14" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;exitX=0.2;exitY=0.024;exitDx=0;exitDy=0;entryX=0.793;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="dXl8IALLqeuonYHjiNIx-1" source="bdLT4lLg08VNCdXR1ywT-2" target="bdLT4lLg08VNCdXR1ywT-1">
+          <mxGeometry x="-0.5966" y="-18" width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="200" as="sourcePoint" />
+            <mxPoint x="340" y="200" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bdLT4lLg08VNCdXR1ywT-2" value="등륵 관리" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="210" width="80" height="40" as="geometry" />
+        <mxCell id="iouqh-4un5WAHU8eEik2-19" value="수강 신청" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dXl8IALLqeuonYHjiNIx-1">
+          <mxGeometry x="70" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXl8IALLqeuonYHjiNIx-2" value="&lt;div&gt;학생&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dXl8IALLqeuonYHjiNIx-3" value="교직원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dXl8IALLqeuonYHjiNIx-6" value="&lt;div&gt;교수&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iouqh-4un5WAHU8eEik2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dXl8IALLqeuonYHjiNIx-9" target="dXl8IALLqeuonYHjiNIx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="190" />
+              <mxPoint x="150" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iouqh-4un5WAHU8eEik2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.422;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="dXl8IALLqeuonYHjiNIx-6" target="dXl8IALLqeuonYHjiNIx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iouqh-4un5WAHU8eEik2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=default;jumpStyle=none;strokeWidth=1;endArrow=none;endFill=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bdLT4lLg08VNCdXR1ywT-2" target="dXl8IALLqeuonYHjiNIx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="710" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iouqh-4un5WAHU8eEik2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="iouqh-4un5WAHU8eEik2-8" target="dXl8IALLqeuonYHjiNIx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iouqh-4un5WAHU8eEik2-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;" edge="1" parent="1" target="iouqh-4un5WAHU8eEik2-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="270" as="sourcePoint" />
+            <mxPoint x="510" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iouqh-4un5WAHU8eEik2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="iouqh-4un5WAHU8eEik2-19" target="dXl8IALLqeuonYHjiNIx-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="dPWI6qZk07Jj_EsbHDzR" name="은행창구업무">
-    <mxGraphModel dx="1602" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MstprTG5ummySmakrYdz-1" value="은행 창구 업무" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=none;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="410" height="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
