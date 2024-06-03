@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T20:21:57.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" version="24.2.5" etag="J-766RzBxtgkJ_m_LF7g" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T21:35:40.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="waZkIDFqhuQ3mRciRTfc" version="24.2.5" type="github">
   <diagram name="페이지-1" id="6LM1v-zc90LmGFOM53EV">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-2" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: &amp;quot;Malgun Gothic&amp;quot;, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Business Context Diagram&lt;/font&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=30;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="660" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-4" value="대중교통 길찾기 혼잡도 분석 서비스" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="260" y="170" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-6" value="서울교통공사" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="120" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-7" value="한국철도공사" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="20" y="190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-8" value="버스 정보 안내 단말기&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="120" y="310" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-11" value="서비스 이용자" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="410" y="40" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-14" value="길찾기 API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="400" y="320" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-15" value="시스템 관리자" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="490" y="200" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-8" target="Lw_55-2FXYPwDF8fNayq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="290" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-22" value="실시간 버스 혼잡도" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="220" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-24" value="실시간 지하철 혼잡도" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="125" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-7" target="Lw_55-2FXYPwDF8fNayq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="310" as="sourcePoint" />
+            <mxPoint x="289" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.388;entryY=-0.012;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-6" target="Lw_55-2FXYPwDF8fNayq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-27" value="실시간 지하철&lt;div&gt;혼잡도&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="260" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-29" value="서비스 이용" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="320" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.769;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-11" target="Lw_55-2FXYPwDF8fNayq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="110" as="sourcePoint" />
+            <mxPoint x="320" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1.04;entryY=0.628;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-15" target="Lw_55-2FXYPwDF8fNayq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="370" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.769;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-4" target="Lw_55-2FXYPwDF8fNayq-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="310" as="sourcePoint" />
+            <mxPoint x="289" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-34" value="길찾기 경로" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="400" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-35" value="시스템 유지보수" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="380" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-36" value="서울시" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="500" y="140" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Lw_55-2FXYPwDF8fNayq-2" source="Lw_55-2FXYPwDF8fNayq-4" target="Lw_55-2FXYPwDF8fNayq-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="370" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw_55-2FXYPwDF8fNayq-39" value="대중교통&amp;nbsp;&lt;div&gt;혼잡도 통계&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="Lw_55-2FXYPwDF8fNayq-2">
+          <mxGeometry x="390" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
